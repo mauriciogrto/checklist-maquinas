@@ -1,0 +1,25 @@
+
+# Arquivos de execução e dados locais
+/vendor/
+/node_modules/
+**/node_modules/
+**/__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite3
+*.log
+*.pem
+*.key
+*.pfx
+*.p12
+/auth.json
+/tmp/
+/output/
+/bootstrap/cache/*
+!/bootstrap/cache/.gitignore
+/storage/**
+!/storage/**/
+!/storage/**/.gitignore
